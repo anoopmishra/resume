@@ -27,7 +27,7 @@
 
 		/* //-- yui-grids style overrides -- */
 		body { font-family: Arial; color: #444; }
-		#inner { padding: 10px 50px; margin: 20px auto; background: white; border: solid #666; border-width: 8px 0 2px 0; }
+		#inner { padding: 10px 50px; margin: 20px auto 0px auto; background: white; border: solid #666; border-width: 6px 0 2px 0; }
 		.yui-gf { margin-bottom: 2em; padding-bottom: 1.5em; border-bottom: 1px solid #ccc; }
 
 		/* //-- header, body, footer -- */
@@ -57,7 +57,7 @@
 		a#pdf { display: block; float: left; background: #666; color: white; padding: 6px 50px 6px 12px; margin-bottom: 6px; text-decoration: none;  }
 		a#pdf:hover { background: #222; }
 
-		.yui-u { position: relative; margin-bottom: 1em; padding-bottom: 0em; }
+		.yui-u { position: relative; padding-bottom: 0em; }
 		.job { position: relative; margin-bottom: 2.0em; padding-bottom: 1.8em; border-bottom: 1px solid #ccc; }
 		.job h4, .yui-u h4 { position: absolute; top: 0.35em; right: 0 }
 		.job.top h4 { top: 2.4em; }
@@ -66,7 +66,7 @@
 		.expertise li { list-style: disc;  margin-left: 16px; }
 
 		.top { padding-top: 3.0em;  page-break-before: always; }
-		.job.last { border: none; margin-bottom: 1.2em}
+		.job.last { border: none; margin-bottom: -1em}
 		.skills-list ul { margin: 0; }
 		.skills-list li { margin: 3px 0; padding: 3px 0; }
 		.skills-list li span { font-size: 152%; display: block; margin-bottom: -2px; padding: 0 }
@@ -125,21 +125,23 @@
 								<br/>
 								<p>Looking for opportunity to lead engineering teams with cross-functional collaboration. Ideal setup would be a startup with proven market fit, or a team in an established company working with new technologies.</p>
 							</div>
+							<br/>
 						</div>
 						<!--// .yui-gf -->
 
 						<!--// .yui-gf-->
 						<!--// .yui-gf -->
+						<br/>
 						<div class="yui-gf">
 
 							<div class="yui-u first">
 								<h2>Work Experience</h2>
-								<span style="font-size: 0.9em; color: #888;">
+								<span style="font-size: 0.9em; color: #666;">
 									<br/><br/><br/><br/><br/><br/><br/><br/>
 									OpenCV, OCR, Unsupervised Learning, Language Models, Python, Javascript, Microservices, Containers, Linux, Azure, CI/CD.
-									<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+									<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 									Bayesian Inferencing, Medical Ontology, Conversational AI, TensorFlow, SciPy, Microservices, React, ES6, JSX, Sagemaker.
-									<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+									<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 									Unsupervised Learning, Python, PHP, Javascript, Web and Mobile App, HL7, EMR Apps, EPIC Orchard, Conversational AI, Chatbots, Microservices, AWS, DevOps.
 									<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 									Objective-C, JAVA, PHP, Javascript, MySQL, Rest APIs, AppStore, Play Store, AppAnnie, Social Marketing.
@@ -151,7 +153,7 @@
 									Linux, Apache, MySQL, PHP, Javascript, JQuery.
 									<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 									C, C++, Perl, Internet Telephony, PSTN, SS7, TAPI Boards.
-									<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+									<br/><br/><br/><br/><br/><br/><br/><br/>
 									C, C++, PDF, PostScript, PCL, VxWorks, Embedded Windows, Embedded Systems, Device Drivers.
 								</span>
 							</div>
@@ -179,6 +181,7 @@
 										<li>Lead various initiatives at the company to incorporate best practices 
 											in development, product release and deployment management processes.</li>
 									</ul>
+									<br/>
 								</div>
 
 								<div class="job">
@@ -196,10 +199,13 @@
 											build a conversational AI bot for triaging and providing diagnostic 
 											probabilities of conditions from user entered symptoms.</b>
 										</li>
+										<li>Designed a conditional probability system to work with medical ontology connecting
+											human body parts with symptoms, their location, severity, mutual exclusiveness to diseases.</li>
 										<li>Redesigned and improved the performance of multi-layered AI backend consisting of
 											bayesian and ml inferencing models to bring the bot api 
 											responses from average 20 sec to near real time.</li>
 									</ul>
+									<br/>
 								</div>
 
 								<div class="job">
@@ -329,7 +335,7 @@
 
 								<div class="job last">
 									<h2>EFI Inc.</h2>
-									<h3>Senior Developer</h3>
+									<h3>Senior Software Engineer</h3>
 									<h4>1999 - 2004<br />Foster City, CA</h4><br />
 									<p>
 										EFI is the world leader in the printer
@@ -339,13 +345,12 @@
 										and Xerox.
 									</p>
 									<ul>
-										<li>Designed an embedded lexical parser to
-											identify the print job file format coming in
-											through the print driver for printing.</li>
+										<li>Developed an embedded lexical parser to
+											identify the job format sent
+											through the print driver.</li>
 										<li>Developed a software to distribute
-											production printing jobs across several
-											printers for a faster and cost effective
-											printing.</li>
+											printing jobs across several
+											printers for parallel printing.</li>
 									</ul>
 								</div>
 							</div>
@@ -357,26 +362,21 @@
 							</div>
 							<div class="yui-u expertise">
 								<ul>
-									<li>RESTful APIs and Microservices:</li>
+									<li><b>Microservices / RESTful APIs:</b> Resources in REST design, Stateless pattern,
+										User Authentication, Resource Authorization, SAML, Middleware, CORS,
+										Serverless routes warming, SQL/NoSQL Storage, Cloud storage, 
+										CDN, Logging, Versioning, Throttling, Billing, Documentation.</li>
 								</ul>
-								<p style="margin-left:30px;margin-top:5px;">API design, Stateless pattern, Resource authorization,
-									User authentication, Cloud security, SAML, Middleware, CORS,
-									Serverless routes warming, SQL/NoSQL Storage, Cloud storage, CDN, Logging, Versioning, Throttling, Billing, Swagger Docs</p>
-								<br />
 								<ul>
-								<li>User Interfaces / Frontend:</li>
+								<li><b>Web & Mobile UI / Frontend:</b> Workflows, Responsive design, 
+									Reusable components, State management, Local storage, 
+									Server-side rendering, Code splitting for performance, Traffic optimization, 
+									Theme Injection, i18n and l10n, Client configurations, Unit testing for web and mobile.</li>
 								<ul>
-								<p style="margin-left:30px;margin-top:5px;">Workflows, Responsive design, Reusable components, State management, Local storage, 
-									Server-side rendering, Code splitting for performance, Traffic optimization, Theme Injection, i18n and l10n, Client configurations, Unit testing for web and mobile</p>
-									<br/>
-
-
-								<ul>
-									<li>Computer Vision / Machine Learning:</li>
-								</ul>
-								<p style="margin-left:30px;margin-top:5px;">Image Homography, Stereo
+									<li><b>Computer Vision / ML:</b> Image Homography, Stereo
 									Correspondences, View Interpolation, Computational Photography,
-									Images Stitching and Blending, Fake Detection, Machine Learning.</p>
+									Images Stitching and Blending, Fake Detection, Machine Learning.</li>
+								</ul>
 							</div>
 						</div>
 						<!--// .yui-gf -->
@@ -407,7 +407,7 @@
 								<p>International Conference on Knowledge Based Systems.</p><i><h4>Dec 1999</h4></i>
 							</div>
 						</div>
-						<div class="yui-gf last" style="margin-bottom: -20px;">
+						<div class="yui-gf last" style="margin-bottom: -25px;">
 							<div class="yui-u first">
 								<h2>Patents</h2>
 							</div>
